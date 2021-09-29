@@ -1,0 +1,82 @@
+.sidebar {
+    background-color: #1E213A;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.sidebar > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar > header > button.search {
+    background-color: #6E707A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    color: #E7E7EB;
+}
+
+.sidebar > header > button.my-location {
+    background-color: #6E707A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #E7E7EB;
+    border-radius: 50%;
+    padding: 9px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.sidebar > .weather-ilustration {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.sidebar > .weather-ilustration > img:first-child {
+    opacity: 0.05;
+    max-width: 100%;
+    position: absolute;
+}
+
+.sidebar > .weather-ilustration > img:last-child {
+    max-width: 150px;
+}
+
+.sidebar > h1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #A09FB1;
+    text-align: center;
+    line-height: 2.5em;
+    margin-bottom: .6em;
+}
+
+.sidebar > h1 > span {
+    font-size: 144px;
+    color: #E7E7EB;
+}
+
+.sidebar > h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #A09FB1;
+    margin: 0 0 48px 0;
+}
+
+.sidebar > .location-date {
+    text-align: center;
+    color: #88869D;
+}
